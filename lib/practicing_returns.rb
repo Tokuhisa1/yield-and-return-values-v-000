@@ -12,4 +12,5 @@ def hello(array)
   collection
 end
 
-puts hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+output = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+puts output
